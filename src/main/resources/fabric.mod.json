@@ -3,13 +3,13 @@
   "id": "modnametooltip",
   "version": "1.0.0",
   "name": "Mod Name Tool Tips",
-  "description": "Quickly and easily sort inventorys",
+  "description": "Simple mod to display the mod an item came from in it's tool tip",
   "authors": [
     "kyrptonaught"
   ],
   "contact": {
-    "homepage": "https://github.com/kyrptonaught/Inventory-Sorter",
-    "sources": "https://github.com/kyrptonaught/Inventory-Sorter"
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/modded-tool-tips",
+    "sources": "https://github.com/kyrptonaught/modnametooltips"
   },
   "license": "CC0-1.0",
   "icon": "assets/modnametooltip/icon.png",
