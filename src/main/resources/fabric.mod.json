@@ -1,32 +1,34 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
-  "version": "${version}",
-
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "id": "modnametooltip",
+  "version": "1.0.0",
+  "name": "Mod Name Tool Tips",
+  "description": "Quickly and easily sort inventorys",
   "authors": [
-    "Me!"
+    "kyrptonaught"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/kyrptonaught/Inventory-Sorter",
+    "sources": "https://github.com/kyrptonaught/Inventory-Sorter"
   },
-
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
-
+  "icon": "assets/modnametooltip/icon.png",
   "environment": "*",
+  "mixins": [
+    {
+      "config": "net.kyrptonaught.modnametooltip.json",
+      "environment": "client"
+    }
+  ],
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.kyrptonaught.modnametooltip.ModNameToolTipMod"
+    ],
+    "client": [
+      "net.kyrptonaught.modnametooltip.ModNameToolTipMod"
     ]
   },
-  "mixins": [
-    "modid.mixins.json"
-  ],
-
-  "depends": {
+  "requires": {
     "fabricloader": ">=0.4.0",
     "fabric": "*"
   },

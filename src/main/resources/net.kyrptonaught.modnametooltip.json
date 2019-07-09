@@ -1,11 +1,9 @@
 {
   "required": true,
-  "package": "net.fabricmc.example.mixin",
+  "package": "net.kyrptonaught.modnametooltip.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-  ],
-  "client": [
-    "ExampleMixin"
+    "ItemMixin"
   ],
   "injectors": {
     "defaultRequire": 1
